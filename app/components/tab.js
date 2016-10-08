@@ -10,8 +10,8 @@ export default class Tab extends Component {
 		this.props.handleTabClick(index);
 	}
 	render() {
-		let { position, name, isActive, children } = this.props;
-		let tabClass = classnames(
+		const { position, name, isActive, children } = this.props;
+		const tabClass = classnames(
 			'nav-item',{
 				'active': isActive
 			}

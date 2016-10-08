@@ -3,7 +3,7 @@ import classnames from 'classnames';
 
 export default class Content extends Component {
 	render() {
-		let contentClass = classnames(
+		const contentClass = classnames(
 			'tab-pane',{
 				'active': this.props.isActive
 			}

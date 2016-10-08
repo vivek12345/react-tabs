@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class TabContent extends Component {
+export default class TabContent extends Component {
 	renderChildren(props) {
 		return props.map((child, index) => {
 			const clonedProps = {
@@ -19,4 +19,3 @@ class TabContent extends Component {
 		)
 	}
 }
-export default TabContent;

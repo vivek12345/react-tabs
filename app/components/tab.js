@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import classnames from 'classnames';
 
-class Tab extends Component {
+export default class Tab extends Component {
 	constructor(props) {
 		super(props);
 	}
@@ -25,5 +25,3 @@ class Tab extends Component {
 		)
 	}
 }
-
-export default Tab;

@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import classnames from 'classnames';
 
-class Content extends Component {
+export default class Content extends Component {
 	render() {
 		let contentClass = classnames(
 			'tab-pane',{
@@ -15,4 +15,3 @@ class Content extends Component {
 		);
 	}
 }
-export default Content;

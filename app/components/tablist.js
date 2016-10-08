@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class TabList extends Component {
+export default class TabList extends Component {
 	constructor(props) {
 		super(props);
 	}
@@ -24,4 +24,3 @@ class TabList extends Component {
 		)
 	}
 }
-export default TabList;

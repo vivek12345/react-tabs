@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class Tabs extends Component {
+export default class Tabs extends Component {
 	constructor(props) {
 		super(props);
 		this.state = {
@@ -37,4 +37,3 @@ Tabs.propTypes = {
 Tabs.defaultProps = {
 	activeTab: 0
 };
-export default Tabs;
